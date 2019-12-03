@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module SolidusGlobalize
-  class Configuration < Spree::Preferences::Configuration
+  class Configuration < ::Spree::Preferences::Configuration
     # These configs intend to, respectively:
     #
     #   Say which Globalized inputs are displayed on backend
